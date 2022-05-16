@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat:ital,wght@1,200&family=Oleo+Script+Swash+Caps:wght@700&family=Roboto:ital,wght@1,300&family=Tapestry&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #8ca2f8;
+}
+
+.logo {
+    height: 100%;
+    width: 120px;
+}
+
+.header {
+    background: url(./img/peakpx.jpg);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+   
+}
+
+.nav-list {
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    font-family: Macondo;
+}
+.nav-link {
+    color: #929fff;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: rgb(199, 190, 255);
+}
